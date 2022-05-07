@@ -1,6 +1,5 @@
 
 <template>
-
   <div>
     <pv-button
         class="p-button-lg"

@@ -23,6 +23,14 @@ const router = createRouter({
       component: () => import("../users/coach/coach-students/pages/coach-students.component.vue")
     },
     {
+<<<<<<< Updated upstream
+=======
+      path: "/tournaments",
+      name: "tournaments",
+      component: () => import("../users/coach/coach-tournament/pages/coach-tournaments.component.vue")
+    },
+    {
+>>>>>>> Stashed changes
       path: "/home",
       name: "home",
       component: () => import("../users/coach/coach-home/pages/coach-home.component.vue")

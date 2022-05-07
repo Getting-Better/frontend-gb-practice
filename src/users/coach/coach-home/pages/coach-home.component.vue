@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 <!--esta es la copia-->
+=======
+>>>>>>> Stashed changes
 <link rel="stylesheet" href="https://unpkg.com/primeflex@3.1.0/primeflex.css">
 
 <template>
@@ -8,7 +11,11 @@
 
   <div class="cards">
 
+<<<<<<< Updated upstream
     <pv-card class="p-card">
+=======
+    <pv-card class="p-card" v-for="publication of publications">
+>>>>>>> Stashed changes
 
       <template #header>
         <div class="card-headboard">
@@ -16,12 +23,20 @@
           <img
               src="https://i.pinimg.com/originals/0a/60/bc/0a60bc05b97180bf77a29d734d655223.jpg"
               alt="image user"
+<<<<<<< Updated upstream
           />Jose Domingo
+=======
+          />
+>>>>>>> Stashed changes
 
         </div>
         <div class="content">
           <div class="p-card-title">
+<<<<<<< Updated upstream
             <h3>Dota 2 cancela la primera Major del 2022 debido a los contagios de COVID-19 </h3>
+=======
+            <h3>{{publication.nickname}} </h3>
+>>>>>>> Stashed changes
           </div>
           <div class="card-description">
             <h5>La variante Ómicron es mucho más contagiosa que otras.Por este motivo, han regresado las medidas sanitarias en los eventos presenciales.
@@ -44,6 +59,7 @@
         </div>
       </template>
     </pv-card>
+<<<<<<< Updated upstream
     <pv-card class="p-card">
 
       <template #header>
@@ -118,12 +134,26 @@
 
 <script>
 import {coachHomeService} from "../services/coach-home.service";
+=======
+
+  </div>
+
+</template>
+
+
+<script>
+import {PublicationsService} from "../services/coach-home.service";
+>>>>>>> Stashed changes
 
 export default {
   name: "coach-home",
   data() {
     return {
+<<<<<<< Updated upstream
       advisoryes: [],
+=======
+      publications: [],
+>>>>>>> Stashed changes
       coachDialog: false,
       submitted: false,
       advisoryService: null,
@@ -131,6 +161,7 @@ export default {
       advisoryId: 1,
     };
   },
+<<<<<<< Updated upstream
   created() {
     this.advisoryService = new coachHomeService();
     this.advisoryService.getAll().then((response) => {
@@ -180,6 +211,33 @@ export default {
       this.coach = {};
     },
   },
+=======
+  mounted() {
+    this.retrievePublications();
+  },
+  methods:{
+
+    retrievePublications(){
+      PublicationsService.getAll().then((response)=>{
+        this.publications=response.data.map(this.getDisplayTutorial);
+      })
+    },
+    getDisplayTutorial(publication) {
+      return {
+        id: publication.id,
+        nickname: publication.nickname,
+        userId: publication.userId,
+        imageAvatar: publication.imageAvatar,
+        imagePublication: publication.imagePublication,
+        urlPublication: publication.urlPublication,
+        title: publication.title,
+        description: publication.description,
+      };
+
+    }
+
+  }
+>>>>>>> Stashed changes
 };
 </script>
 <style>

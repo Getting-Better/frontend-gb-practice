@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="https://unpkg.com/primeflex@3.1.0/primeflex.css">
 
-<template>
+<template >
+ <div class="dv-color">
 
-  <h1>Anuncios</h1>
+  <h1 style="font-size:40px" >Anuncios</h1>
   <br>
-
   <div class="cards">
 
     <pv-card class="p-card" v-for="publication of publications">
@@ -33,13 +33,15 @@
                 preview
             />
             <br>
-            <a href="https://depor.com/depor-play/esports/dota-2-cancela-la-primera-major-del-2022-debido-a-los-contagios-de-covid-19-esports-videojuegos-valve-noticia/">Leer Màs</a>
-
+            <div class="pd-a">
+              <a :href= publication.urlPublication class="button">Read More</a>
+            </div>
           </div>
         </div>
       </template>
     </pv-card>
   </div>
+ </div>
 </template>
 
 <script>
@@ -148,5 +150,20 @@ export default {
   border-radius: 50px;
 }
 
-
+.dv-color{
+  background-color: #003c8f;
+}
+.pd-a{
+  margin-top: 1rem;
+}
+.button {
+  background-color: #0086c3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 </style>

@@ -5,11 +5,11 @@ export default {
     return {
 
       items: [
-        { label: "home", to: "/home" },
+        { label:  "Home", to: "/home" },
         { label: "Profile", to: "/profiles" },
-        { label: "advisory", to: "/advisories" },
-        { label: "students", to: "/students"},
-        { label: "tournaments", to: "/tournaments"}
+        { label: "Advisory", to: "/advisories" },
+        { label: "Students", to: "/students"},
+        { label: "Tournaments", to: "/tournaments"}
       ],
     };
   }
@@ -19,7 +19,7 @@ export default {
 <template>
   <pv-toast></pv-toast>
   <header>
-    <pv-toolbar class="toolbar bg-primary">
+    <pv-toolbar class="toolbar">
       <template #start>
         <img
           alt="Getting Better logo"
@@ -29,7 +29,7 @@ export default {
           height="125"
         />
       </template>
-      <template #end>
+      <template #end >
         <div class="flex-column">
           <router-link
             v-for="item in items"
@@ -62,4 +62,5 @@ export default {
   color: #ffffff;
   background-color: #000000;
 }
+
 </style>

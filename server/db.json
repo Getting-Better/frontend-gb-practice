@@ -157,5 +157,21 @@
       "media": "dsadsadsadsa",
       "id": 3
     }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "imagePublication": "https://assets.gamingintelligence.com/wp-content/uploads/sites/4/2022/05/16113943/Nota-de-prensa.jpg",
+      "urlPublication": "https://www.nferias.com/peru-gaming-show/",
+      "title": "Perú Gaming Show: la feria ",
+      "description": "Perú Gaming Show es un evento imperdible para los propietarios y responsables de los casinos, bingos y centros recreativos de Perú y la Región Andina.\n\nHasta allí se desplazan las principales firmas proveedoras de máquinas expendedoras y tragamonedas, sistemas de seguridad o soluciones tecnológicas para estos negocios, entre otros muchos productos y servicios, para presentar sus novedades y generar nuevos contactos comerciales."
+    },
+    {
+      "id": 2,
+      "imagePublication": "https://i.ytimg.com/vi/W5KOaJ8tS1A/maxresdefault.jpg",
+      "urlPublication": "https://www.karlosperu.com/mobile-legends-bang-bang-organiza-su-primer-campeonato-oficial-en-el-peru/",
+      "title": "Mobile Legends: Bang Bang organiza su primer campeonato oficial en el Perú ",
+      "description": "Los ganadores tendrán premios de hasta 25,000 diamantes del videojuego y la posibilidad de enfrentarse a los campeones de la MLBB Copa Challenger Perú"
+    }
   ]
 }

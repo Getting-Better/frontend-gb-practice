@@ -221,10 +221,6 @@ body {
 }
 
 .left-column {
-
-
-  color: var(--white-text);
-
   flex-direction: column;
   align-items: center;
   justify-content: space-between;

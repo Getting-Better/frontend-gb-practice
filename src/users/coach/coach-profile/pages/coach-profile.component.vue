@@ -2,8 +2,7 @@
 
 <div>
   <nav-bar-coach/>
-  <pv-divider></pv-divider>
-    <pv-card class="p-card">
+    <pv-card class="container" style="text-align: center">
       <template #header>
           <pv-image
               class="pv-image-holder"
@@ -21,27 +20,20 @@
 
 
       <template #content>
-           <i class="pi pi-user"></i>
-          <p class="pv-p">First Name:</p>
-          <pv-input-text   v-model="coach.name"/>
-          <pv-divider></pv-divider>
-
+         
       <i class="pi pi-user"></i>
       <p class="pv-p">Nickname:</p>
-          <pv-input-text  v-model="coach.nickname"/>
+      <pv-input-text  v-model="coach.nickname"/>
+      <pv-divider></pv-divider>
+
+      <i class="pi pi-user"></i>
+      <p class="pv-p">First Name:</p>
+      <pv-input-text   v-model="coach.name"/>
       <pv-divider></pv-divider>
 
       <i class="pi pi-user"></i>
       <p class="pv-p">Last Name:</p>
           <pv-input-text  v-model="coach.lastname"/>
-      <pv-divider></pv-divider>
-      <i class="pi pi-tag"></i>
-      <p class="pv-p">Role:</p>
-          <pv-input-text  v-model="coach.role"/>
-      <pv-divider></pv-divider>
-      <i class="pi pi-star"></i>
-      <p class="pv-p">Heroes:</p>
-      <pv-input-text  v-model="coach.heroes"/>
       <pv-divider></pv-divider>
 
       <i class="pi pi-ticket"></i>
@@ -164,6 +156,11 @@ export default {
   padding-top: 20px;
   margin:auto;
   margin-top:20px;
+}
+.container{
+  background-color: #2455A5;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 

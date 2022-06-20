@@ -4,15 +4,6 @@
   <div class="container">
     <br><br>
 
-    <pv-button
-        class="p-button-lg"
-        label="New Tournament"
-        icon="pi pi-plus"
-        align="Center"
-        @click="openNew"
-    />
-    <pv-divider/>
-
     <pv-card v-for="tournament of tournaments" style="width: 395px">
       <template #header>
         <pv-image v-bind:src="tournament.urlToImage"

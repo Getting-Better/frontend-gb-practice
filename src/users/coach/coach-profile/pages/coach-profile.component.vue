@@ -2,6 +2,7 @@
 
 <div>
   <nav-bar-coach/>
+
     <pv-card class="container" style="text-align: center">
       <template #header>
           <pv-image
@@ -13,14 +14,9 @@
             height="275"
             preview
           />
-
-
       </template>
 
-
-
-      <template #content>
-         
+      <template #content>    
       <i class="pi pi-user"></i>
       <p class="pv-p">Nickname:</p>
       <pv-input-text  v-model="coach.nickname"/>

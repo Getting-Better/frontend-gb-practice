@@ -3,13 +3,6 @@
 
   <div class="container">
     <br><br>
-
-    <pv-button
-        class="p-button-lg"
-        label="Create Tournament"
-        icon="pi pi-plus"
-        @click="openNew"
-    />
     <pv-divider/>
 
     <pv-card v-for="tournament of tournamentsSelected" style="width: 395px">

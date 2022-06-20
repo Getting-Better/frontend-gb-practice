@@ -36,22 +36,7 @@
         <p class="pv-p">Last Name:</p>
         <pv-input-text  v-model="student.lastname"/>
         <pv-divider></pv-divider>
-
-        <i class="pi pi-tag"></i>
-        <p class="pv-p">Role:</p>
-        <pv-input-text  v-model="student.role"/>
-        <pv-divider></pv-divider>
-
-        <i class="pi pi-star"></i>
-        <p class="pv-p">Heroes:</p>
-        <pv-input-text  v-model="student.heroes"/>
-        <pv-divider></pv-divider>
-
-        <i class="pi pi-ticket"></i>
-        <p class="pv-p">Tournaments:</p>
-        <pv-input-text  v-model="student.tournaments"/>
-        <pv-divider></pv-divider>
-
+        
         <i class="pi pi-briefcase"></i>
         <p class="pv-p">Bibliography:</p>
         <pv-input-text  v-model="student.bibliography"/>

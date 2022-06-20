@@ -2,33 +2,34 @@
   "advisories": [
     {
       "id": 1,
-      "title": "Support Itemization",
-      "description": "How to build to help your team",
+      "title": "(DOTA 2) Learn from the pros",
+      "description": "Meet a pro-gamer to improve your skills",
       "date": "21-07-2022",
       "hour": "9:30pm",
       "studentName": "Carlos Choquehuanca",
       "discordServer": "Quasimodo",
-      "cyberImage": "https://d37b96571lewzk.cloudfront.net/assets/image/92/5fbd041a0c9c6/top_games_for_cyber_cafe_o.jpg",
       "urlToImage": "https://staticg.sportskeeda.com/editor/2021/04/45716-16195438439457-800.jpg",
       "coachId": 1
     },
     {
       "id": 2,
-      "title": "Learn from the pros",
-      "description": "Meet a pro-gamer to improve your skills",
+      "title": "(DOTA 2) Support Itemization",
+      "description": "How to build to help your team",
       "date": "29-08-2022",
+      "hour": "10:30pm",
+      "studentName": "Omar alvarado",
       "discordServer": "AS - WILD",
-      "cyberImage": "https://d37b96571lewzk.cloudfront.net/assets/image/92/5fbd041a0c9c6/top_games_for_cyber_cafe_o.jpg",
       "urlToImage": "https://dota2freaks.com/wp-content/uploads/sites/10/2020/02/dota-2-recommended-items.jpg",
       "coachId": 1
     },
     {
       "id": 3,
-      "title": "Learn from the pros",
-      "description": "Meet a pro-gamer to improve your skills",
-      "date": "29-08-2022",
-      "discordServer": "AS - WILD",
-      "cyberImage": "https://d37b96571lewzk.cloudfront.net/assets/image/92/5fbd041a0c9c6/top_games_for_cyber_cafe_o.jpg",
+      "title": "(COD) Sensibility is the Key",
+      "description": "Learn how to set a good configuration for your matches",
+      "date": "15-09-2022",
+      "hour": "11:30pm",
+      "studentName": "Pepe Segarra",
+      "discordServer": "YTS",
       "urlToImage": "http://clutchround.com/wp-content/uploads/2015/08/csgo_corners_and_angles_dust2_T_CT.png",
       "coachId": 1
     }
@@ -39,17 +40,13 @@
       "nickname": "Nick",
       "name": "Omar",
       "lastname": "Alvar",
-      "selectedGame": "LOL",
-      "role": "Rusher",
-      "heroes": "Skyler",
       "email": "aaaasd",
       "password": "1234",
       "tournaments": "LigaFF",
       "bibliography": "Developer",
-      "studentsId": [
-        1,
-        2
-      ]
+      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1QDTGY4XAju-jLpJnhADF4QzVjgvV_G5yjfAwiois5O0RKran-exjPaGWgRafp3zXAE&usqp=CAU",
+      "rate": 4.8,
+      "selectedGame": "DOTA"
     },
     {
       "id": 2,
@@ -63,11 +60,47 @@
       "password": "abc123",
       "tournaments": "LigaFF",
       "bibliography": "Developer",
-      "studentsId": [
-        1,
-        2,
-        3
-      ]
+      "rate": 4.2,
+      "urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg"
+    },
+    {
+      "id": 3,
+      "nickname": "Estoico",
+      "name": "Omar",
+      "lastname": "Alvarado",
+      "email": "asdsadas",
+      "password": "abc123",
+      "tournaments": "LigaFF",
+      "bibliography": "Recently coached OG to their The International 2021",
+      "urlToImage": "https://cdn0.gamesports.net/content_teasers/76000/76563.jpg?1543081069",
+      "rate": 5,
+      "selectedGame": "DOTA"
+    },
+    {
+      "id": 4,
+      "nickname": "Nick",
+      "name": "Omar",
+      "lastname": "Alvar",
+      "email": "aaaasd",
+      "password": "1234",
+      "tournaments": "The International 2018 | China Dota2 Supermajor",
+      "bibliography": "Ex Virtus.pro Dota 2 Coach",
+      "urlToImage": "https://static.gosugamers.net/92/89/74/034d7a6ea2b87b71b6213b64f0bfd19f54eff7d52ceaf3d4d0babbf1d3.jpg",
+      "rate": 4.5,
+      "selectedGame": "DOTA"
+    },
+    {
+      "id": 5,
+      "nickname": "Nick",
+      "name": "Omar",
+      "lastname": "Alvar",
+      "email": "aaaasd",
+      "password": "1234",
+      "tournaments": "LigaFF",
+      "bibliography": "Former Player and Ex OG Coach",
+      "urlToImage": "https://dota2peru.net/wp-content/uploads/2019/11/ceb-no-disfrute-el-dinero-que-gane-im-1.jpg?w=627&h=328",
+      "rate": 4.8,
+      "selectedGame": "DOTA"
     }
   ],
   "students": [
@@ -106,6 +139,23 @@
       "urlToImage": "https://e.rpp-noticias.io/normal/2016/10/29/023202_277176.png"
     }
   ],
+  "coach-students": [
+    {
+      "id": 1,
+      "coachId": 1,
+      "studentId": 1
+    },
+    {
+      "id": 2,
+      "coachId": 1,
+      "studentId": 3
+    },
+    {
+      "id": 3,
+      "coachId": 2,
+      "studentId": 2
+    }
+  ],
   "publications": [
     {
       "id": 1,
@@ -141,27 +191,48 @@
   "tournaments": [
     {
       "id": 1,
+      "name": "Careperro.net",
       "title": "Major Tournament Peru",
       "schedule": "Sab May. 20 - 8:00pm",
-      "chanel": "Youtube",
+      "location": "CC Arenales, Piso 1, #23",
       "urlToImage": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/04/26/15562666815994.jpg",
-      "media": "Av. Arenales"
+      "cyberId": 1
     },
     {
-      "title": "asdasd",
-      "schedule": "asdsadasd",
-      "chanel": "sadasdas",
-      "urlToImage": "https://i0.wp.com/itusers.today/wp-content/uploads/2019/06/En-el-Claro-MasGamers-Festival-2019-AMD-y-ASUS-Republic-Of-Gamers-auspicia-torneo-Dota2.jpg?fit=1024%2C683&ssl=1",
-      "media": "dasdasdsa",
-      "id": 2
+      "id": 2,
+      "name": "GG Cyber",
+      "title": "Major Tournament Peru Vol 2",
+      "schedule": "Monday June 6 - 5:00pm",
+      "location": "CC Arenales, Piso 1, #23",
+      "urlToImage": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/04/26/15562666815994.jpg",
+      "cyberId": 2
+    }
+  ],
+  "tournament-students": [
+    {
+      "id": 1,
+      "tournamentId": 1,
+      "studentId": 1
     },
     {
-      "title": "asdsadasd",
-      "urlToImage": "https://i0.wp.com/itusers.today/wp-content/uploads/2019/06/En-el-Claro-MasGamers-Festival-2019-AMD-y-ASUS-Republic-Of-Gamers-auspicia-torneo-Dota2.jpg?fit=1024%2C683&ssl=1",
-      "schedule": "dsadsad",
-      "chanel": "sadsadsaa",
-      "media": "dsadsadsadsa",
-      "id": 3
+      "id": 2,
+      "tournamentId": 1,
+      "studentId": 3
+    },
+    {
+      "id": 3,
+      "tournamentId": 2,
+      "studentId": 2
+    },
+    {
+      "id": 4,
+      "tournamentId": 2,
+      "studentId": 3
+    },
+    {
+      "id": 5,
+      "tournamentId": 2,
+      "studentId": 1
     }
   ],
   "events": [
@@ -180,29 +251,26 @@
       "description": "Los ganadores tendrán premios de hasta 25,000 diamantes del videojuego y la posibilidad de enfrentarse a los campeones de la MLBB Copa Challenger Perú"
     }
   ],
-
-"cybers": [
-{
-"id": 1,
-"password": "asdw233",
-"nickname": "Mapero",
-"name": "Wingo",
-"lastname": "Alvarado",
-
-"bibliography": "He is one of the most popular esportsmen of our time. Gabe Newell, creator of Valve, named him World's Most Charismatic Player.",
-"urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg",
-  "address": "centro comercial arenales 252"
-},
-  {
-    "id": 2,
-    "password": "ergerge",
-    "nickname": "Wenil",
-    "name": "Wasaberto",
-    "lastname": "Ramirez",
-    "bibliography": "He is one of the most popular esportsmen of our time. Gabe Newell, creator of Valve, named him World's Most Charismatic Player.",
-    "urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg",
-    "address": "centro comercial arenales 252"
-  }
-]
-
+  "cybers": [
+    {
+      "id": 1,
+      "password": "asdw233",
+      "nickname": "Mapero",
+      "name": "Wingo",
+      "lastname": "Alvarado",
+      "bibliography": "He is one of the most popular esportsmen of our time. Gabe Newell, creator of Valve, named him World's Most Charismatic Player.",
+      "urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg",
+      "address": "centro comercial arenales 252"
+    },
+    {
+      "id": 2,
+      "password": "ergerge",
+      "nickname": "Wenil",
+      "name": "Wasaberto",
+      "lastname": "Ramirez",
+      "bibliography": "He is one of the most popular esportsmen of our time. Gabe Newell, creator of Valve, named him World's Most Charismatic Player.",
+      "urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg",
+      "address": "centro comercial arenales 252"
+    }
+  ]
 }

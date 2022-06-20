@@ -108,9 +108,6 @@
       "nickname": "Estoico",
       "name": "Omar",
       "lastname": "Alvarado",
-      "role": "Midlaner",
-      "heroes": "Skyler, Invoker",
-      "tournaments": "LigaFF",
       "bibliography": "He is one of the most popular esportsmen of our time. Gabe Newell, creator of Valve, named him World's Most Charismatic Player.",
       "urlToImage": "https://esports.eldesmarque.com/wp-content/uploads/2016/10/17431372369_b85998e8a6_k.jpg"
     },
@@ -119,9 +116,6 @@
       "nickname": "saber_Z",
       "name": "Carlos",
       "lastname": "Villanueva",
-      "role": "Offlaner",
-      "heroes": "Axe, Underlord",
-      "tournaments": "DoomTF",
       "bibliography": "He is widely regarded as the greatest competitive League of Legends player of all time.",
       "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1QDTGY4XAju-jLpJnhADF4QzVjgvV_G5yjfAwiois5O0RKran-exjPaGWgRafp3zXAE&usqp=CAU"
     },
@@ -130,9 +124,6 @@
       "nickname": "duckfield",
       "name": "Diego",
       "lastname": "Cespedes",
-      "role": "sniper",
-      "heroes": "Ghost, Master",
-      "tournaments": "MajorES",
       "bibliography": "Developer who took interest in games",
       "urlToImage": "https://e.rpp-noticias.io/normal/2016/10/29/023202_277176.png"
     }
